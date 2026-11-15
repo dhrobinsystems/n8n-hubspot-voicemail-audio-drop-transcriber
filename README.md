@@ -41,6 +41,8 @@ This workflow puts every voicemail on the contact's timeline as text, already su
 
 ## Architecture
 
+![HubSpot Voicemail Audio Drop Transcriber Workflow Overview](./workflow-overview.png)
+
 ```mermaid
 flowchart LR
     A[Aircall call.voicemail_left<br/>or Twilio recording callback] -->|POST| B[Aircall / Twilio Webhook]
